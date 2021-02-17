@@ -5,10 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Page.Title }}</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png" />
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet"> 
   {{ $style := resources.Get "css/main.css" | resources.PostCSS | resources.Minify }}
   <link href="{{ $style.RelPermalink }}" rel="stylesheet" />

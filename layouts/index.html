@@ -6,7 +6,7 @@
         {{ .Content }}
         <a 
           href="https://docs.google.com/forms/d/e/1FAIpQLSelMW3K-dI1iSt_N-DplihXQ858Oa4TDYGGtZiv5kSI0rdclA/viewform?usp=sf_link"
-          class="inline-block mt-4 rounded shadow transition-shadow hover:shadow-xl px-6 py-3 bg-red focus:ring-indigo-500 text-white">
+          class="inline-block mt-1 rounded shadow transition-shadow hover:shadow-xl px-6 py-3 bg-red focus:ring-indigo-500 text-white">
           Shape the future of BobaBot
         </a>
       </section>
@@ -22,7 +22,7 @@
       {{ $headless.Content }}
     </div>
     <dl class="space-y-10 mt-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-      {{ range $index, $page := sort $headless.Pages ".Title" "desc" }}
+      {{ range $index, $page := sort $headless.Pages ".Title" "asc" }}
         <div class="flex">
           <div class="flex-shrink-0 h-12 w-12 p-3 bg-red text-white shadow rounded text-center text-lg leading-6">
             {{ $page.Content }}

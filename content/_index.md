@@ -8,6 +8,6 @@ social_image:
 <h2 class="font-extrabold text-4xl md:text-5xl">
   World's first at-home bubble tea machine. 
 </h2>
-<p class="text-xl md:text-2xl mt-3">
-  Making fresh & customizable bubble tea in 10 minutes. <span class="inline-block"></span>
+<p class="text-lg mt-4">
+  We just began our design phase, so every piece of feedback counts. 
 </p>
