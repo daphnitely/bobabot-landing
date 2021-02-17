@@ -1,10 +1,14 @@
 {{ define "main" }}
-  <div class="text-gray-50 bg-blue-700 px-4 shadow-lg bg-96" style="background-image: url('/waves.svg')">
+  <div class="text-black bg-yellow px-4 shadow-lg bg-96" style="background-image: url('/bobabot.svg')">
     {{ partial "header.html" . }}
     <div class="relative max-w-5xl mx-auto mt-20 pb-16 pr-8 flex">
       <section class="md:mr-80 lg:mr-96">
         {{ .Content }}
-        {{ partial "signup.html" . }}
+        <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSelMW3K-dI1iSt_N-DplihXQ858Oa4TDYGGtZiv5kSI0rdclA/viewform?usp=sf_link"
+          class="inline-block mt-4 rounded shadow transition-shadow hover:shadow-xl px-6 py-3 bg-red focus:ring-indigo-500 text-white">
+          Shape the future of BobaBot
+        </a>
       </section>
       <picture class="phones--hero hidden md:block absolute right-0 -top-20">
         {{ partial "phones.html" . }}
@@ -20,7 +24,7 @@
     <dl class="space-y-10 mt-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
       {{ range $index, $page := sort $headless.Pages ".Title" "desc" }}
         <div class="flex">
-          <div class="flex-shrink-0 h-12 w-12 p-3 bg-blue-500 text-white shadow">
+          <div class="flex-shrink-0 h-12 w-12 p-3 bg-red text-white shadow rounded text-center text-lg leading-6">
             {{ $page.Content }}
           </div>
           <div class="ml-4">

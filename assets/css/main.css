@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Aileron";
+  src: url("aileron/Aileron-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url("aileron/Aileron-Heavy.otf") format("otf");
+  font-weight: 800;
+  font-style: normal;
+}
+
 h3 {
-  @apply font-display font-medium text-3xl leading-8;
+  @apply font-extrabold text-3xl leading-8;
 }
 
 .phones--hero .phones__img {

@@ -1,13 +1,13 @@
 ---
-title: Hawaii Bus Plus
+title: BobaBot
 social_image:
   src: /social.png
-  alt: Riding the bus shouldn't be a hassle. Make it positive with the best transit app on the Big Island.
+  alt: World's first at-home bubble tea machine.
 ---
 
-<h2 class="font-display font-medium text-4xl md:text-5xl">
-  Riding the bus shouldn't be a hassle.
+<h2 class="font-extrabold text-4xl md:text-5xl">
+  World's first at-home bubble tea machine. 
 </h2>
-<p class="font-medium text-xl md:text-2xl mt-3">
-  Make it positive with the best transit app on the <span class="inline-block">Big Island.</span>
+<p class="text-xl md:text-2xl mt-3">
+  Making fresh & customizable bubble tea in 10 minutes. <span class="inline-block"></span>
 </p>

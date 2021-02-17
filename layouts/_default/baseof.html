@@ -9,18 +9,13 @@
   <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
   <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png" />
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet"> 
   {{ $style := resources.Get "css/main.css" | resources.PostCSS | resources.Minify }}
   <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
-  <script src="https://getinsights.io/js/insights.js"></script>
-  <script>
-  insights.init('KXNUdTJ9I4iYXHGo');
-  insights.trackPages();
-  </script>
   {{ partial "seo/twitter.html" . }}
   {{ partial "seo/opengraph.html" . }}
 </head>
-<body class="bg-gray-50 dark:bg-gray-750">
+<body class="font-sans bg-gray-50 dark:bg-gray-750">
   {{ block "main" . }}{{ end }}
 </body>
 </html>

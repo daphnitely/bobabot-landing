@@ -10,7 +10,8 @@ module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
-      display: ["Red Rose", "serif"],
+      logo: ["Fascinate", "sans-serif"],
+      sans: ["Aileron", "Arial", "sans-serif"],
     },
     extend: {
       backgroundSize: {
@@ -41,23 +42,8 @@ module.exports = {
           800: "hsl(212, 10%, 18%)",
           900: "hsl(212, 10%, 10%)",
         },
-        red: {
-          DEFAULT: "#C67168",
-        },
-        yellow: {
-          DEFAULT: "#E2C049",
-        },
-        brown: {
-          DEFAULT: "#918381",
-        },
-        cyan: {
-          DEFAULT: "#8BB9BD",
-        },
-        ocean: {
-          light: "#778a91",
-          DEFAULT: "#335468",
-          dark: "#2d4859",
-        },
+        red: "#c7826b",
+        yellow: "#ceb195",
       },
       fill: (theme) => ({
         "blue-500": theme("colors.blue.500"),
