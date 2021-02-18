@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="text-black bg-yellow px-4 shadow-lg bg-96" style="background-image: url('/bobabot.svg')">
+  <div class="text-black bg-yellow px-4 shadow-lg bg-96" style="background-image: url('{{ relref . "/bobabot.svg" }}')">
     {{ partial "header.html" . }}
     <div class="relative max-w-5xl mx-auto mt-20 pb-16 pr-8 flex">
       <section class="md:mr-80 lg:mr-96">
