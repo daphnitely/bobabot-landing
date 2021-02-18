@@ -9,5 +9,5 @@ social_image:
   World's first at-home bubble tea machine. 
 </h2>
 <p class="text-lg mt-4">
-  We just began our design phase, so every piece of feedback counts. 
+  Help decide on the design before it comes to your home. 
 </p>
