@@ -1,7 +1,7 @@
 ---
 title: BobaBot
 social_image:
-  src: /social.png
+  src: social.png
   alt: World's first at-home bubble tea machine.
 ---
 
