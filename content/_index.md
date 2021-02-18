@@ -6,7 +6,7 @@ social_image:
 ---
 
 <h2 class="font-display font-extrabold text-4xl md:text-5xl">
-  World's first at-home bubble tea machine. 
+  The world's first at-home bubble tea machine. 
 </h2>
 <p class="text-lg mt-4">
   Help decide on the design before it comes to your home. 
