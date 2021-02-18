@@ -6,7 +6,7 @@
         {{ .Content }}
         <a 
           href="https://docs.google.com/forms/d/e/1FAIpQLSelMW3K-dI1iSt_N-DplihXQ858Oa4TDYGGtZiv5kSI0rdclA/viewform?usp=sf_link"
-          class="inline-block mt-1 rounded shadow transition-shadow hover:shadow-xl px-6 py-3 bg-red focus:ring-indigo-500 text-white">
+          class="font-display font-extrabold inline-block mt-1 rounded shadow transition-shadow hover:shadow-xl px-6 py-3 bg-red focus:ring-indigo-500 text-white">
           Shape the future of BobaBot
         </a>
       </section>
@@ -45,7 +45,7 @@
   <footer class="text-center mt-10 md:mb-20 max-w-5xl mx-auto">
     <div class="shadow-lg px-16 pt-12 pb-20 md:pb-12 bg-white dark:bg-gray-700">
       <h3 class="text-black dark:text-white">Get notified when we're launching.</h3>
-      <p class="text-gray-700 dark:text-gray-300 text-xl mt-4">Be the first to try out Hawaii Bus Plus.</p>
+      <p class="text-gray-700 dark:text-gray-300 text-xl mt-4">Be the first to try out {{.Title}}.</p>
       {{ partial "signup.html" . }}
     </div>
   </footer>

@@ -10,7 +10,7 @@ module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
-      logo: ["Fascinate", "sans-serif"],
+      display: ["Montserrat", "sans-serif"],
       sans: ["Aileron", "Arial", "sans-serif"],
     },
     extend: {

@@ -5,7 +5,7 @@ social_image:
   alt: World's first at-home bubble tea machine.
 ---
 
-<h2 class="font-extrabold text-4xl md:text-5xl">
+<h2 class="font-display font-extrabold text-4xl md:text-5xl">
   World's first at-home bubble tea machine. 
 </h2>
 <p class="text-lg mt-4">

@@ -16,7 +16,7 @@
 }
 
 h3 {
-  @apply font-extrabold text-3xl leading-8;
+  @apply font-display font-extrabold text-3xl leading-8;
 }
 
 .phones--hero .phones__img {
