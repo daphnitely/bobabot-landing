@@ -1,6 +1,6 @@
-baseURL: "https://hawaiibusplus.com/"
+baseURL: "https://example.com/"
 languageCode: "en-us"
-title: "Hawaii Bus Plus"
+title: "BobaBot"
 
 markup:
   goldmark:
